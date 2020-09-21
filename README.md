@@ -22,3 +22,30 @@ $ # Print the number using only this simbles:  |, _, -, /, \ .
 |_   _|   _|  |_   ................
   |_|    |______|
 ```
+
+
+### Getting started.
+
+Note: windows developers should use python and pip rather than python3 and pip3 in the following commands:
+
+```bash
+$ pip3 install -r requirements.txt
+$ # Run all the tests:
+$ python3 -m unittest
+$ # Run specific test:
+$ python3 -m unittest tests.test_symbol_factory.TestPhone
+```
+
+<img src="./readme_images/running_unit_test.gif" width="1000 px"/>
+
+### How to debug?
+
+```python
+# Place this line in the place were you want to start to debug.
+import ipdb; ipdb.set_trace()
+# You will have reference to all the variables that were previous set.
+# write `c+enter` to jump to the next `import ipdb; ipdb.set_trace()` line.
+# write `n+enter` to go to the next line.
+```
+
+<img src="./readme_images/ibdb_console.gif" width="1000 px"/>
