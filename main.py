@@ -6,5 +6,7 @@ while phone_is_invalid:
     print(letters_phone_number)
     phone_object = Phone(phone_letters=letters_phone_number)
     phone_is_invalid = not phone_object.validate_phone()
+    # if phone_is_invalid:
+    #     print("Your phone number is invalid.")
 
 print(phone_object.get_string())

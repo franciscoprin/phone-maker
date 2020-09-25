@@ -3,7 +3,7 @@ from symbol_factory import SymbolFactory
 class Phone:
     def __init__(self, phone_letters):
         self.symbol_factory_object = SymbolFactory()
-        pass
+        self.phone_letters = phone_letters
 
     def validate_phone(self):
         """
@@ -13,7 +13,10 @@ class Phone:
           - It shouldn't be smaller than 15 characters.
           - Aside from the + no other special character should be permitted (i.e: #,@,%,etc).
         """
-        pass
+        if self.phone_letters:
+            if self.phone_letters[0] == "+" and len(self.phone_letters) < 15:
+                return True
+        return False
 
     def get_string(self):
         """Returns the corresponding phone's string shape of the using only |, _, -, /, \ """
