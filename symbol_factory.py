@@ -1,8 +1,7 @@
-from helper import form_num_str_to_num_dict_mapper
+from helper import from_num_str_to_num_dict_mapper
 class SymbolFactory:
     def get_string(self, single_simbol):
-      return form_num_str_to_num_dict_mapper[single_simbol]
-
+      return from_num_str_to_num_dict_mapper[single_simbol]
 
         #"""
           #Returns the corresponding symbol's string shape using only |, _, -, /, \,

@@ -13,9 +13,7 @@ class Phone:
           #- It shouldn't be smaller than 15 characters.
           #- Aside from the + no other special character should be permitted (i.e: #,@,%,etc).
         #"""
-        phone_doesnt_start_with_plus = Phone("+13463335555")
-        phone_greater_than_15_characters = Phone("+13463335555321412342134")
-       	phone_with_special_characters = Phone("!~#$%^&*@|}{")
+        
 	
         if self.phone_letters:
             if self.phone_letters[0] == "+" and len(self.phone_letters) < 15:

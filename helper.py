@@ -140,7 +140,7 @@ number_zero = [
 for zero in number_zero:
   print(zero)
 
-form_num_str_to_num_dict_mapper ={ 
+from_num_str_to_num_dict_mapper ={ 
   "1" : number_one, 
   "2" : number_two, 
   "3" : number_three, 
