@@ -140,9 +140,17 @@ number_zero = [
 for zero in number_zero:
   print(zero)
 
-my_dict ={ 
-  "1" :number_one,, "2" : number_two, "3" : number_three, "4" : number_four, "5" : number_five,"6" : number_six, "7" : number_seven, "8" :number_eight,
-  , "9" :number_nine,"0" :number_zero 
+form_num_str_to_num_dict_mapper ={ 
+  "1" : number_one, 
+  "2" : number_two, 
+  "3" : number_three, 
+  "4" : number_four, 
+  "5" : number_five,
+  "6" : number_six, 
+  "7" : number_seven, 
+  "8" : number_eight,
+  "9" : number_nine,
+  "0" : number_zero, 
 }
 
 

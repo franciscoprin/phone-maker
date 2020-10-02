@@ -1,7 +1,7 @@
-from helper import my_dict
+from helper import form_num_str_to_num_dict_mapper
 class SymbolFactory:
     def get_string(self, single_simbol):
-      return my_dict[single_simbol]
+      return form_num_str_to_num_dict_mapper[single_simbol]
 
 
         #"""
