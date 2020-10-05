@@ -48,4 +48,4 @@ import ipdb; ipdb.set_trace() # break point
 # write `n+enter` to go to the next line.
 ```
 
-<img src="./readme_images/ibdb_console.gif" width="1000 px"/>
+<img src="./readme_images/ibdb_console.gif" width="1000 px
