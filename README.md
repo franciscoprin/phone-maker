@@ -42,7 +42,7 @@ $ python3 -m unittest tests.test_symbol_factory.TestPhone
 
 ```python
 # Place this line in the place were you want to start to debug.
-import ipdb; ipdb.set_trace() # break point
+import ipdb; ipdb.set_trace# break point
 # You will have reference to all the variables that were previous set.
 # write `c+enter` to jump to the next `import ipdb; ipdb.set_trace()` line.
 # write `n+enter` to go to the next line.
